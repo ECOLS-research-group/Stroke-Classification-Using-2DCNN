@@ -15,3 +15,11 @@ Following the transformation of tabular data into 2D images, the code proceeds t
 
 ### Running the Code:
 To run the code, simply execute either"Tabular-to-Image.py" or "Tabular-to-Image.txt" in Google Colab. Ensure that the data file is saved on your Colab drive, and update the path accordingly in the code. The transformed images will be saved in a folder named "custom_nmf_images".
+
+##### Dependencies: 
+ pandas 
+ numpy 
+ sklearn.decomposition import NMF
+ sklearn.preprocessing import MinMaxScaler
+ from PIL import Image
+ matplotlib.pyplot
