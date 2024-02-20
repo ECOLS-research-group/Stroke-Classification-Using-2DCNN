@@ -8,7 +8,33 @@ This code implements a transformative approach known as Non-Negative Matrix Fact
 ## NMF Transformation Architecture:
 The NMF architecture is illustrated in Figure below, where the NMF formula is given by W × H = V. Here, V represents the Original or Derived Matrix, W is the Feature Matrix, and H is the Coefficient Matrix. The architecture diagram visually explains the process of transforming raw tabular data into a 2D image, leveraging the principles of NMF.
 
-https://drive.google.com/file/d/1Qnu0NlFzDlLWLwqByziCngPN4g71_FEn/view?usp=sharing
+  V (Original/Derived Matrix)
+   |
+   ×
+   |
+  ╔════════════════════╗
+  ║                    ║
+  ║  NMF Transformation║
+  ║                    ║
+  ╚════════════════════╝
+   |
+   ×
+   |
+  ╔════════════════════╗
+  ║                    ║
+  ║ Feature Matrix (W) ║
+  ║                    ║
+  ╚════════════════════╝
+   |
+   ×
+   |
+  ╔════════════════════╗
+  ║                    ║
+  ║ Coefficient Matrix ║
+  ║        (H)         ║
+  ║                    ║
+  ╚════════════════════╝
+
 
 ## CNN Training:
 Following the transformation of tabular data into 2D images, the code proceeds to train a Convolutional Neural Network (CNN) architecture. 
