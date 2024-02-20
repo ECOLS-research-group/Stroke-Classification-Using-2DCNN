@@ -11,7 +11,10 @@ NMF Transformation Architecture:
 
 The NMF architecture is illustrated in Figure below, where the NMF formula is given by W × H = V. Here, V represents the Original or Derived Matrix, W is the Feature Matrix, and H is the Coefficient Matrix. The architecture diagram visually explains the process of transforming raw tabular data into a 2D image, leveraging the principles of NMF.
 
-![gitimage](gitimage.PNG)
+![NMF](Stroke-Classification-Using-2DCNN
+/gitimage.png)
+
+
 
 CNN Training:
 
