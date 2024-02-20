@@ -19,7 +19,7 @@ To run the code, simply execute either"Tabular-to-Image.py" or "Tabular-to-Image
 ##### Dependencies: 
  pandas 
  numpy 
- sklearn.decomposition import NMF
- sklearn.preprocessing import MinMaxScaler
+ from sklearn.decomposition import NMF
+ from sklearn.preprocessing import MinMaxScaler
  from PIL import Image
  matplotlib.pyplot
