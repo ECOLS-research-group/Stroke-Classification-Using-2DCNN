@@ -1,6 +1,6 @@
-# Stroke-Classification-Using-2DCNN
+# Stroke-Classification-Using-2DCNN Version 1.0
 Stroke-Classification-Using-2-D-Convolutional-Neural-Networks
-
+Copyright (c) 2024, ECOLS - All rights reserved.
 ### NMF Transformation for Stroke Data Classification
 #### Overview:
 This code implements a transformative approach known as Non-Negative Matrix Factorization (NMF) to convert preprocessed stroke-related tabular data into a visually interpretable 2-D feature map. NMF is chosen for its ability to decompose non-negative matrices into lower-dimensional matrices, effectively capturing latent features in the data. The non-negativity constraint aligns with the nature of the stroke-related tabular data, ensuring that the generated features and coefficients are interpretable.
@@ -23,3 +23,6 @@ To run the code, simply execute either"Tabular-to-Image.py" or "Tabular-to-Image
  from sklearn.preprocessing import MinMaxScaler
  from PIL import Image
  matplotlib.pyplot
+
+### Programmer
+Estine Angelin Kumar
