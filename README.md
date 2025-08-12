@@ -1,5 +1,6 @@
-# Stroke-Classification-Using-2DCNN Version 1.0
+# Stroke-Classification-Using-2DCNN 
 Stroke-Classification-Using-2-D-Convolutional-Neural-Networks
+## Version 1.0
 Copyright (c) 2024, ECOLS - All rights reserved.
 ### NMF Transformation for Stroke Data Classification
 #### Overview:
